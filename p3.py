@@ -2,6 +2,8 @@ import math
 
 class Solution:
     def Log2(self,x):
+        if(x==0):
+            return 0
         return (math.log10(x) /
                 math.log10(2))
 
@@ -16,3 +18,4 @@ class Solution:
                 if ( self.isPowOfTwo(deliciousness[i] + deliciousness[j]) ):
                     sum += 1
         return sum
+        
