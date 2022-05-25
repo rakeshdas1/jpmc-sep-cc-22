@@ -1,5 +1,5 @@
 
-power_2 = [pow(2,x) for x in range(22)]
+power_2 = [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768, 65536, 131072, 262144, 524288, 1048576, 2097152]
 
 def get_num(lst):
 
@@ -12,3 +12,5 @@ def get_num(lst):
                 counter += 1
 
     return counter
+
+print(power_2)
