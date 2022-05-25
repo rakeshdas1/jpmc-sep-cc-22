@@ -9,9 +9,6 @@ def get_num(lst):
         for k in range(i+1,len(lst)):
             sum = lst[i] + lst[k]
             if sum in power_2:
-                print(lst[i], lst[k])
                 counter += 1
 
     return counter
-
-print(get_num([1, 1, 1, 3, 3, 3, 7]))
