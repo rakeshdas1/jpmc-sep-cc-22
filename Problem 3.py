@@ -12,5 +12,3 @@ def get_num(lst):
                 counter += 1
 
     return counter
-
-print(power_2)
